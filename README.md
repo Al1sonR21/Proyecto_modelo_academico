@@ -1,7 +1,7 @@
 # Proyecto_modelo_academico: Jerarquía y Composición con Polimorfismo
 
 
-Este proyecto fue desarrollado como parte del curso de **Programación Orientada a Objetos** durante mi formación universitaria. El objetivo principal es modelar un sistema académico con personas, estudiantes, asistentes y equipos de laboratorio, utilizando principios de la programación orientada a objetos como **herencia**, **composición** y **polimorfismo** en C++.
+Este proyecto fue desarrollado como parte del curso de **Estructuras Abstractas de Datos y Algoritmos para Ingeniería** durante mi formación universitaria. El objetivo principal es modelar un sistema académico con personas, estudiantes, asistentes y equipos de laboratorio, utilizando principios de la programación orientada a objetos como **herencia**, **composición** y **polimorfismo** en C++.
 
 ## 🧾 Descripción
 
@@ -30,3 +30,24 @@ El proyecto contiene múltiples archivos fuente en C++:
 
 ```bash
 g++ -std=c++11 -o programa main.cpp Persona.cpp Estudiante.cpp Asistente.cpp Materias.cpp "Equipo laboratorio.cpp"
+
+
+4. Ejecuta el programa:
+
+```bash
+./programa
+```
+
+**Nota**: En sistemas Windows el ejecutable será `programa.exe`.
+
+## 📚 Requisitos
+
+* C++11 o superior
+* Compilador compatible (g++, clang, MinGW, etc.)
+
+## 👨‍💻 Autora
+
+**Alison Rivera Cisneros**
+Correo: [alison.rivera@ucr.ac.cr.com](mailto:alison.rivera@ucr.ac.cr.com)
+Proyecto universitario - Estructuras Abstractas de Datos y Algoritmos para Ingeniería
+
